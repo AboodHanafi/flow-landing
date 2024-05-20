@@ -4,7 +4,6 @@ module.exports = {
     "./pages/**/*.js",
     "./components/*.js",
     "./components/**/*.js",
-    "./styles/*.css",
   ],
   theme: {
     boxShadow: {
