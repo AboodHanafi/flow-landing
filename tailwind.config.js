@@ -4,6 +4,7 @@ module.exports = {
     "./pages/**/*.js",
     "./components/*.js",
     "./components/**/*.js",
+    "./styles/*.css",
   ],
   theme: {
     boxShadow: {
@@ -23,17 +24,17 @@ module.exports = {
       green: {
         500: "#018578",
       },
-      blue :{
-        100 : "#023C54",
-        200 : "#034480",
-        300 : "#40B7CF",
-       },
-       gray: {
-         100: "#EEEFF2",
-         400: "#AFB5C0",
-         500: "#DDDDDD",
-         600: "#363E4B"
-       },
+      blue: {
+        100: "#023C54",
+        200: "#034480",
+        300: "#40B7CF",
+      },
+      gray: {
+        100: "#EEEFF2",
+        400: "#AFB5C0",
+        500: "#DDDDDD",
+        600: "#363E4B",
+      },
       black: {
         500: "#4F5665",
         600: "#0B132A",
