@@ -206,7 +206,7 @@ const Pricing = () => {
       <div className="bg-green-500 w-full py-14" id="pricing">
         <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
           <div className="flex flex-col w-full">
-            <ScrollAnimationWrapper className="flex items-center justify-center flex-wrap gap-3 md:gap-0">
+            <div className="flex items-center justify-center flex-wrap gap-3 md:gap-0">
               <div className="w-full md:w-1/3">
                 <h1 className="text-center md:text-start text-3xl sm:text-4xl lg:text-5xl font-bold text-white-500">
                   WHAT IS
@@ -220,13 +220,10 @@ const Pricing = () => {
                   only capital but also mentorship and networking opportunities.
                 </p>
               </div>
-            </ScrollAnimationWrapper>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-11">
-              <ScrollAnimationWrapper className="flex">
-                <motion.div
-                  className="h-full w-full"
-                  variants={scrollAnimation}
-                >
+              <div className="flex">
+                <div className="h-full w-full">
                   <Image
                     src="/assets/hero3.jpeg"
                     alt="Flow Accelerator"
@@ -238,9 +235,9 @@ const Pricing = () => {
                       borderRadius: 20,
                     }}
                   />
-                </motion.div>
-              </ScrollAnimationWrapper>
-              <ScrollAnimationWrapper className="flex flex-col justify-center items-cente">
+                </div>
+              </div>
+              <div className="flex flex-col justify-center items-cente">
                 <h3 className="text-center  text-3xl sm:text-4xl lg:text-5xl font-bold text-white-500">
                   WHY FLOW <span className="text-gray-600">ACCELERATOR?</span>
                 </h3>
@@ -249,7 +246,7 @@ const Pricing = () => {
                   startup advancement, with a portfolio of promising ventures
                   and driven visionary founders.
                 </p>
-              </ScrollAnimationWrapper>
+              </div>
             </div>
           </div>
         </div>
@@ -272,18 +269,12 @@ const Pricing = () => {
         </div>
       </div>
       <div className="bg-green-500 w-full py-14">
-        <ScrollAnimationWrapper className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto flex flex-col gap-6 w-full text-center justify-center">
-          <motion.h3
-            variants={scrollAnimation}
-            className="text-center md:text-start text-3xl sm:text-4xl lg:text-5xl font-bold text-white-500 "
-          >
+        <div className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto flex flex-col gap-6 w-full text-center justify-center">
+          <h3 className="text-center md:text-start text-3xl sm:text-4xl lg:text-5xl font-bold text-white-500 ">
             WHAT CAN YOU GAIN BY JOINING FLOW{" "}
             <span className="text-gray-600">ANGELS?</span>
-          </motion.h3>
-          <motion.p
-            variants={scrollAnimation}
-            className="text-2xl text-center md:text-start text-white-500"
-          >
+          </h3>
+          <p className="text-2xl text-center md:text-start text-white-500">
             Joining Flow Angels presents a multitude of benefits, as we guide
             you through a comprehensive and interactive journey. From
             introducing you to Angel Network Essentials to outlining the
@@ -297,38 +288,29 @@ const Pricing = () => {
             at over{" "}
             <span className="text-gray-600 font-extrabold">$1 billion</span>,
             known as a unicorn.
-          </motion.p>
-        </ScrollAnimationWrapper>
+          </p>
+        </div>
       </div>
       <div className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto my-20 ">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-9">
           <div className="md:col-span-2">
-            <motion.p
-              variants={scrollAnimation}
-              className="text-2xl text-center md:text-start text-gray-600 font-bold"
-            >
+            <p className="text-2xl text-center md:text-start text-gray-600 font-bold">
               Be part of the movement shaping the future of Palestinian
               entrepreneurship. Interested in joining Flow Angels? Send us your
               information, and we will reach out to you shortly.
-            </motion.p>
+            </p>
           </div>
           <div className="md:col-span-1 flex flex-col justify-center items-center">
-            <motion.h1
-              variants={scrollAnimation}
-              className="text-2xl text-center text-gray-600 font-bold"
-            >
+            <h1 className="text-2xl text-center text-gray-600 font-bold">
               DO YOU HAVE ANY QUESTIONS?
-            </motion.h1>
-            <motion.h1
-              variants={scrollAnimation}
-              className="text-2xl text-center text-green-500 font-bold"
-            >
+            </h1>
+            <h1 className="text-2xl text-center text-green-500 font-bold">
               CONTACT US NOW
-            </motion.h1>
-            <motion.p className="text-center text-gray-600 text-lg">
+            </h1>
+            <p className="text-center text-gray-600 text-lg">
               Email Address :{" "}
               <span className="text-green-500">angels@flow.ps</span>
-            </motion.p>
+            </p>
           </div>
         </div>
       </div>
