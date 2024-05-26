@@ -351,7 +351,7 @@ const Pricing = () => {
               <div className="flex">
                 <div className="h-full w-full">
                   <Image
-                    src="/assets/hero3.jpeg"
+                    src="/assets/hero4.JPG"
                     alt="Flow Accelerator"
                     layout="responsive"
                     quality={100}
