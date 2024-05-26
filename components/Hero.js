@@ -28,7 +28,7 @@ const Hero = () => {
           <div className="flex w-full">
             <motion.div className="w-full" variants={scrollAnimation}>
               <Image
-                src="/assets/hero1.jpeg"
+                src="/assets/hero4.jpg"
                 alt="Flow Accelerator"
                 quality={100}
                 width={612}
@@ -43,7 +43,7 @@ const Hero = () => {
           <div className="flex w-full">
             <motion.div className="w-full" variants={scrollAnimation}>
               <Image
-                src="/assets/hero2.jpeg"
+                src="/assets/hero5.jpg"
                 alt="Flow Accelerator"
                 quality={100}
                 width={612}
